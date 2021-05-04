@@ -122,3 +122,27 @@ form .user-details .input-box{
     flex-direction: column;
   }
 }
+table {
+    font-family: 'Poppins',sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td{
+    border: 1px solid #b42e9e;
+    text-align: left;
+    padding: 8px;
+  }
+  td .button{
+      font-family: 'Poppins',sans-serif;
+      border: 1px solid #15ccec;
+      padding-left: 10px;
+  }
+  th{
+    border: 1px solid #15ccec;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
