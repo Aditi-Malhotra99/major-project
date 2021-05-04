@@ -1,42 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
-    <link rel="stylesheet" href="index.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta charset="UTF-8">
+  <title>Teacher</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="topnav">
-  <a href="#sitename">Site Name</a>
-  <a class="active" href="#home">Home</a>
-  <a href="#Ask">Ask Question</a>
-  <a href="#Register">Register & login</a>
-  <a href="#Result">Result</a>
-  <a href="#about">About Us</a>
-  <a href="#contact">Contact Us</a>
-  <a href="#faq">FAQ</a>
+  <div class="login-wrap">
+      <div class="login-html">
+             
+            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+            <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+             
+           <div class="login-form">
+                  <div class="sign-in-htm">
+                  <div class="group">
+                  <input id="user" type="text" class="input" placeholder="Username">
+                        </div>
+                        <div class="group">
+            <input id="pass" type="password" class="input" data-type="password" placeholder="Password">
+                        </div>
+                        <div class="group">
+                              <input id="check" type="checkbox" class="check" checked>
+                              <label for="check"><span class="icon"></span> Keep me Signed in</label>
+                        </div>
+                        <div class="group">
+                              <input type="submit" class="button" value="Sign In">
+                        </div>
+                        <div class="hr"></div>
+                        <div class="foot-lnk">
+                              <a href="#forgot">Forgot Password?</a>
+                        </div>
+                  </div>
+                  <div class="sign-up-htm">
+                        <div class="group">
+                               
+                              <input id="user" type="text" class="input" placeholder="Your Name">
+                        </div>
+                        <div class="group">
+                               
+                              <input id="pass" type="password" class="input" data-type="password" placeholder="Enter Password">
+                        </div>
+                        <div class="group">
+                               
+                              <input id="pass" type="password" class="input" data-type="password" placeholder="Re-Type Password">
+                        </div>
+                        <div class="group">
+                               
+                              <input id="pass" type="text" class="input" placeholder="Your Email">
+                        </div>
+                        <div class="group">
+                              <input type="submit" class="button" value="Sign Up">
+                        </div>
+                        <div class="hr"></div>
+                        <div class="foot-lnk">
+                              <label for="tab-1"><span>Already Member?</span>
+                        </div>
+                  </div>
+            </div>
+      </div>
 </div>
-<div class="row">
-    <div class="column left" style="background-color:#aaa;">
-      <h2>Recent Questions</h2>
-      <p>Some text..</p>
-    </div>
-    <div class="column middle" style="background-color:#bbb;">
-      <h2>Search Questions</h2>
-      <p>Centered inside a form with max-width:</p>
-<form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
-  <input type="text" placeholder="Search.." name="search2">
-  <button type="submit"><i class="fa fa-search"></i></button>
-</form>
-      <p>Some text..</p>
-    </div>
-    <div class="column right" style="background-color:#ccc;">
-      <h2>What's New</h2>
-      <p>Some text..</p>
-    </div>
-  </div>
-
-
-</body>
+  </body>
 </html>
