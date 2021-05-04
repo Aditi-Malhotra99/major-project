@@ -25,6 +25,7 @@ body{
     background:url(tech.jpg) no-repeat center;
     box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
     border-radius: 20px;
+    text-align: left;
 }
 
 .login-html{
@@ -34,12 +35,11 @@ body{
     padding:50px;
     background:rgba(40,57,101,.9);
     border-radius: 20px;
-     
+    text-align: left;
      
 }
 
-.login-html .sign-in-htm,
-.login-html .sign-up-htm{
+.login-html .sign-in-htm{
     top:0;
     left:0;
     right:0;
@@ -58,16 +58,14 @@ body{
 
 .login-html .tab{
     font-size:30px;
-    padding: 10px;
+    padding: 0px;
+    padding-left: 230px;
     display: inline-block;
     border-bottom:2px solid transparent;
     margin-bottom: 20px;
-    text-align: center;
-     
+    text-align: justify;
     font-weight: bold;
   font-family: 'Orbitron', sans-serif;
-
-     
 }
 .login-html .sign-in:checked + .tab,
 .login-html .sign-up:checked + .tab{
@@ -156,9 +154,7 @@ body{
 .login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
             transform:rotate(0);
 }
-.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
-            transform:rotate(0);
-}
+
 
 .hr{
     height:2px;
